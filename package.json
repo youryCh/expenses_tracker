@@ -1,0 +1,11 @@
+{
+  "name": "expenses_tracker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/youryCh/expenses_tracker.git",
+  "author": "Xolmes <xolmes@ya.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.0.0"
+  }
+}
