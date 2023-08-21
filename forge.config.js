@@ -28,4 +28,19 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'youryCh',
+          name: 'expenses_tracker',
+          environment: process.env.GITHUB_TOKEN
+        },
+        prerelease: false,
+        draft: true,
+        environment: process.env.GITHUB_TOKEN
+      }
+    }
+  ]
 };
